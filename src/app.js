@@ -1,6 +1,6 @@
 const express=require('express')
 const fs=require('fs')
-const fileName='../Desafio_2/products.json'
+const fileName='./products.json'
 const format = "utf-8"
 const products=fs.readFileSync(fileName,format)
 const parsProducts=JSON.parse(products)
